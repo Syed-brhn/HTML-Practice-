@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 02</title>
+</head>
+
+<body>
+    <!-- this is used to create order list (order list mean order wise)  -->
+    <ol type="i">
+        <!--also note if you want to change its behavior from 1 to A or roman counting add type atribute in ol tag -->
+        <li>Computer</li>
+        <li>Fans</li>
+        <li>TV</li>
+    </ol>
+
+    <!-- this is use to create unoder list  -->
+    <ul type="circle">
+        <!-- also note that if you want to change its behavior from bullet to cirlce you can do so by adding type atributer in ul tage  -->
+        <li>Computer</li>
+        <li>TV</li>
+        <li>Fans</li>
+    </ul>
+
+    <!--you can also create sub list by adding another list to the list  -->
+
+    <ul type="circle">
+        <li>Fans</li>
+        <li>TV</li>
+        <li>Computer
+            <ul type="square">
+                <li>LCD</li>
+                <li>Keyboards</li>
+                <li>Mouse</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- this is for defination  -->
+    <dl>
+        <!-- this is defination title -->
+        <dt>Sashimi</dt>
+        <!-- this is defination detail or defination description  -->
+        <dd>Slice raw fished that is served with condiments such as shredded daikon radish or ginger </dd>
+
+        <dt>Scale</dt>
+        <dd>A device used to accuratley measure the weight of the ingredint</dd>
+
+        <dt>Sacmorze</dt>
+        <dd>The technique by which the sclaes are remove from the skin of the fish</dd>
+
+        <dt>Sacmorzo</dt>
+        <dd>An Italian's cheese usyally made from Cow Milk</dd>
+    </dl>
+
+    <!-- this is absolute URL example because user will go to another web through link that why it is Absolute URL -->
+    <a href="https://www.facebook.com/syed.burhan.79025">Check my Facebook Profile</a> <br><br>
+
+    <!-- this is relative URL example because user will be on same by clicking on link -->
+    <a href="./pages/aboutus.HTML">About Us</a>
+
+    <a href="./pages/adress/adress.html">Address</a>
+
+    <!-- this are special link -->
+
+    <a href="mailto:syed.burhan8005@gmail.com">Mail Burhan</a>
+    <a href="tel:+92-315-2473007">Call Burhan</a>
+
+    <!-- this is use to open link in new tab -->
+    <a href="./pages/aboutus.HTML" target="_blank">About Us</a>
+
+    <!-- this is use to take user on specific part of web by click -->
+    <h1 id="top">Film-Making Terms</h1>
+    <a href="#arc_shot">Arc Shot</a><br />
+    <a href="#interlude">Interlude</a><br />
+    <a href="#prologue">Prologue</a><br /><br />
+    <h2 id="arc_shot">Arc Shot</h2>
+    <p>A shot in which the subject is photographed by an
+        encircling or moving camera</p>
+    <h2 id="interlude">Interlude</h2>
+    <p>A brief, intervening film scene or sequence, not
+        specifically tied to the plot, that appears
+        within a film</p>
+    <h2 id="prologue">Prologue</h2>
+    <p>A speech, preface, introduction, or brief scene
+        preceding the the main action or plot of a film;
+        contrast to epilogue</p>
+    <p><a href="#top">Top</a></p>
+
+</body>
+
+</html>
